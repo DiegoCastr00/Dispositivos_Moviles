@@ -15,6 +15,20 @@
         android:theme="@style/Theme.PRAC_3_Auten_Biometrica"
         tools:targetApi="31">
         <activity
+            android:name=".Autenticado.Navigate.AcelerometroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Autenticado.Navigate.AceleracionLuzActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Autenticado.Navigate.GiroscopioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Autenticado.Navigate.OtraActivity"
+            android:exported="false"
+            android:label="@string/title_activity_otra"
+            android:theme="@style/Theme.PRAC_3_Auten_Biometrica" />
+        <activity
             android:name=".Autenticado.MenuActivity"
             android:exported="false" />
         <activity

@@ -8,8 +8,7 @@
     </style>
 
 
-
     <style name="Theme.PRAC_3_Auten_Biometrica" parent="Base.Theme.PRAC_3_Auten_Biometrica">
-     <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowBackground">@color/black</item>
     </style>
 </resources>
