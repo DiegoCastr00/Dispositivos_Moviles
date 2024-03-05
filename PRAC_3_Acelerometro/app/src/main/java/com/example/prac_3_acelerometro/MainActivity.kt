@@ -35,7 +35,6 @@ class MainActivity : AppCompatActivity() {
                     val z = event.values[2]
                     if (y > 9.0) {
                         tvInclinacion.text = "¡Inclinacion hacia arriba!"
-                        tvInclinacion.text = "¡Inclinacion hacia arriba!"
                     }
                     if (x > 9.0) {
                         tvInclinacion.text = "¡Inclinacion hacia un lado!"

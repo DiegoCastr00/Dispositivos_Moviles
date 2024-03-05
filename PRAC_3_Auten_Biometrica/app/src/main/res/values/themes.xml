@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PRAC_3_Auten_Biometrica" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+
+
+    <style name="Theme.PRAC_3_Auten_Biometrica" parent="Base.Theme.PRAC_3_Auten_Biometrica">
+     <item name="android:windowBackground">@color/black</item>
+    </style>
+</resources>
