@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "528251965019",
+    "project_id": "venus-3ace3",
+    "storage_bucket": "venus-3ace3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528251965019:android:da21bf94b59ecbeac3f97e",
+        "android_client_info": {
+          "package_name": "com.proyecto.venus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt6DpHFtsnjxHaWEPSXkMLgOvHJTlmI5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

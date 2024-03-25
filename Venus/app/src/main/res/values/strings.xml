@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Venus</string>
+    <string name="Name">Nombre</string>
+    <string name="email">Email</string>
+    <string name="Password">Contraseña</string>
+    <string name="Sign_Up">Registrarse</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="title_home">Home</string>
+    <string name="ubicacion">Ubicacion</string>
+    <string name="Survely">Encuesta</string>
+    <string name="Login">Ingresar</string>
+    <string name="nwe_count">Crear una cuenta nueva</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Perfil\n</string>
+    <string name="add">Agregar</string>
+    <string name="service">servicios</string>
+    <string name="profileEdit">Editar perfil</string>
+</resources>
