@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Conversor</string>
+
+    <string name="kilometre">Kilómetros</string>
+    <string name="Meter">Metros</string>
+    <string name="Centimeter">Centimetros</string>
+    <string name="Millimetre">Milímetro</string>
+    <string name="Micrometer">Micrómetro</string>
+    <string name="Nanometer">Nanómetro</string>
+    <string name="Mile">Milla</string>
+    <string name="Yard">Yarda</string>
+    <string name="Foot">Pie</string>
+    <string name="Inch">Pulgada</string>
+
+
+    <string name="grams">Gramos</string>
+    <string name="kilograms">Kilogramos</string>
+    <string name="ton">Tonelada</string>
+    <string name="milligrams">Miligramos</string>
+    <string name="micrograms">Microgramos</string>
+    <string name="Pound">Libra</string>
+    <string name="ounce">Onza</string>
+
+
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="kelvin">Kelvin</string>
+
+
+    <string name="minute">Minuto</string>
+    <string name="milisegundo">Milisegundo</string>
+    <string name="second">Segundo</string>
+    <string name="hour">Hora</string>
+    <string name="day">Día</string>
+    <string name="week">Semana</string>
+    <string name="month">Mes</string>
+    <string name="year">Año</string>
+    <string name="decade">Decada</string>
+    <string name="century">Siglo</string>
+</resources>

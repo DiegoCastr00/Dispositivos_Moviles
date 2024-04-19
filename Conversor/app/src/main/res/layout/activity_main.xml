@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain"
+    tools:context=".MainActivity">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="300dp"
+            android:layout_height="240dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="31dp"
+            app:cardBackgroundColor="#1F2128"
+            app:cardCornerRadius="30sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:text="Menu"
+                android:textColor="#A34849" />
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                app:cardCornerRadius="50dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#8AD1BF"
+                android:layout_marginStart="240dp"
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                app:cardCornerRadius="50dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#C9A2DE"
+                android:layout_marginStart="220dp"
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                app:cardCornerRadius="50dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#60B9DC"
+                android:layout_marginStart="200dp"
+                />
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="270dp"
+                android:layout_height="190dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                app:cardBackgroundColor="#191A20"
+                app:cardCornerRadius="30sp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15sp"
+                    android:backgroundTint="#373F4F">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="15sp"
+                        android:backgroundTint="#424C5F"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        >
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center">
+
+                            <ImageView
+                                android:id="@+id/btnDistancia"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/regla2" />
+                        </RelativeLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="170dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15sp"
+                    android:backgroundTint="#373F4F">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="15sp"
+                        android:backgroundTint="#424C5F"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        >
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center">
+
+                            <ImageView
+                                android:id="@+id/btnTemperatura"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/temperatura" />
+                        </RelativeLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="110dp"
+                    app:cardCornerRadius="15sp"
+                    android:backgroundTint="#373F4F">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="15sp"
+                        android:backgroundTint="#424C5F"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        >
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center">
+
+                            <ImageView
+                                android:id="@+id/btnMasa"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/bascula" />
+                        </RelativeLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="170dp"
+                    android:layout_marginTop="110dp"
+                    app:cardCornerRadius="15sp"
+                    android:backgroundTint="#373F4F">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="15sp"
+                        android:backgroundTint="#424C5F"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        >
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center">
+
+                            <ImageView
+                                android:id="@+id/btnTiempo"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/reloj" />
+                        </RelativeLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
